@@ -1,1 +1,28 @@
+public class Libro{
+    String titulo;
+    String autor;
+    int paginasTotales;
+    int paginaActual;
+
+    public Libro(String titulo, String autor, int paginasTotales) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.paginasTotales = paginasTotales;
+        this.paginaActual = 0;
+    }
+    public void leer(int paginas) {
+        paginaActual = paginaActual + paginas;
+
+        if (paginaActual >= paginasTotales) {
+            paginaActual = paginasTotales;
+            System.out.println("La lectura ha finalizado.");
+        }
+    }
+    public void mostrarProgreso() {
+    double porcentaje = ((double) paginaActual / paginasTotales) * 100;
+    System.out.println("Progreso del libro: " + porcentaje + "%");
+    }
+}
+
+METODO MAIN (fuera de la consigna)
 
