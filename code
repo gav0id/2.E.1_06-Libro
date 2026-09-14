@@ -25,4 +25,15 @@ public class Libro{
 }
 
 METODO MAIN (fuera de la consigna)
+    public static void main(String[] args) {
+        Libro miLibro = new Libro("Uzumaki", "Junji Ito", 650);
+
+        miLibro.mostrarProgreso();
+
+        miLibro.leer(167);
+        miLibro.mostrarProgreso();
+
+        miLibro.leer(500);
+        miLibro.mostrarProgreso();
+    }
 
