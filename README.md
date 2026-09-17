@@ -10,4 +10,5 @@ Para definir su comportamiento, desarrollé dos métodos principales:
 2. `mostrarProgreso()`: Calcula el porcentaje de avance. Para que la operación matemática sea exacta y no se pierdan los decimales en la división, apliqué un casteo explícito a `double` sobre `paginaActual` antes de calcular el porcentaje.
 
 Ejecución en consola
-<img width="1917" height="1021" alt="image" src="https://github.com/user-attachments/assets/992b627c-7249-4e8a-9b1f-2d77e64f3860" />
+<img width="1366" height="722" alt="imagen" src="https://github.com/user-attachments/assets/7c613c40-64f3-490c-a693-10d0dcd2ede2" />
+
