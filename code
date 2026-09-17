@@ -19,21 +19,24 @@ public class Libro{
         }
     }
     public void mostrarProgreso() {
-    double porcentaje = ((double) paginaActual / paginasTotales) * 100;
-    System.out.println("Progreso del libro: " + porcentaje + "%");
+        double porcentaje = ((double) paginaActual / paginasTotales) * 100;
+        System.out.println("Progreso del libro: " + porcentaje + "%");
     }
 }
 
-METODO MAIN (fuera de la consigna)
+public class Main {
     public static void main(String[] args) {
         Libro miLibro = new Libro("Uzumaki", "Junji Ito", 650);
 
         miLibro.mostrarProgreso();
 
-        miLibro.leer(167);
+        miLibro.leer(98);
         miLibro.mostrarProgreso();
 
-        miLibro.leer(500);
+        miLibro.leer(159);
         miLibro.mostrarProgreso();
     }
+}
+
+
 
